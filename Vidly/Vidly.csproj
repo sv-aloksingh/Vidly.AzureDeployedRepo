@@ -187,6 +187,8 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
+    <Compile Include="Controllers\ProfessionsController.cs" />
+    <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -267,6 +269,11 @@
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Customers\CustomerProfile.cshtml" />
+    <Content Include="Views\Profile\About.cshtml" />
+    <Content Include="Views\Profile\Contact.cshtml" />
+    <Content Include="Views\Professions\Courses.cshtml" />
+    <Content Include="Views\Professions\Tutorials.cshtml" />
+    <Content Include="Views\Professions\Youtube.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
