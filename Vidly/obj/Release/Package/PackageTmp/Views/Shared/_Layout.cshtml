@@ -64,10 +64,7 @@
                 </ul>
 
                 <div class="footer">
-                    <p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
+                    <p>&copy; @DateTime.Now.Year - Vidly</p>
                 </div>
 
             </div>
@@ -90,30 +87,37 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item active">
-                                @Html.ActionLink("Customers","Index","Customers", null, new { @class = "nav-link"})
+                                @Html.ActionLink("Customers", "Index", "Customers", null, new { @class = "nav-link" })
                             </li>
                             <li class="nav-item active">
-                                @Html.ActionLink("Movies","Index","Movies", null , new { @class = "nav-link"})
+                                @Html.ActionLink("Movies", "Index", "Movies", null, new { @class = "nav-link" })
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="#">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#">Tutorials</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Portfolio</a>
+                                <a class="nav-link" href="#">YouTube</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#">About me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact me</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
             @RenderBody()
-            <h2 class="mb-4">Sidebar #01</h2>
-          </div>
+            @*<h2 class="mb-4">Sidebar #01</h2>*@
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - Vidly</p>
+            </footer>
+        </div>
     </div>
     <script src="~/Scripts/jquery.min.js"></script>
     <script src="~/Scripts/main.js"></script>
