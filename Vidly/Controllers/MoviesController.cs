@@ -22,9 +22,10 @@ namespace Vidly.Controllers
         }
 
         // GET: Movies
+        [Authorize]
         public ActionResult Index()
         {
             return View();
-        }
+        } 
     }
 }

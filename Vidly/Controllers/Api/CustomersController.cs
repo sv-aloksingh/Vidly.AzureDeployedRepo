@@ -22,6 +22,8 @@ namespace Vidly.Controllers.Api
             _context.Dispose();
         }
 
+        //Return IHttpActionResult
+
         //GET /api/customers
         [HttpGet]
         public IEnumerable<Customer> GetCustomer()

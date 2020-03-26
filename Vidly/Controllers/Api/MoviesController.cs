@@ -22,6 +22,7 @@ namespace Vidly.Controllers.Api
         }
 
         //GET /api/movie
+        [Authorize]
         [HttpGet]
         public IEnumerable<Movie> GetMovies()
         {
@@ -32,6 +33,7 @@ namespace Vidly.Controllers.Api
         }
 
         //GET /api/movie/1
+        [Authorize]
         [HttpGet]
         public Movie GetMovie(int id)
         {
@@ -42,6 +44,7 @@ namespace Vidly.Controllers.Api
         }
 
         //POST /api/movie/
+        [Authorize]
         [HttpPost]
         public Movie CreateMovie(int id, Movie movie)
         {
@@ -53,6 +56,7 @@ namespace Vidly.Controllers.Api
         }
 
         //PUT /api/movie/1
+        [Authorize]
         [HttpPut]
         public Movie UpdateMovie(int id)
         {
@@ -63,6 +67,7 @@ namespace Vidly.Controllers.Api
         }
 
         //DELETE /api/movie/1
+        [Authorize]
         [HttpDelete]
         public Movie DeleteMovie(int id)
         {

@@ -7,6 +7,7 @@ using Vidly.Models;
 
 namespace Vidly.Controllers
 {
+    [AllowAnonymous]
     public class ProfessionsController : Controller
     {
         ApplicationDbContext _context;
