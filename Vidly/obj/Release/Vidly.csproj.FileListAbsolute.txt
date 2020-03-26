@@ -222,3 +222,6 @@ B:\VidlyApp\Vidly.AzureDeployedRepo\Vidly\bin\Microsoft.CodeDom.Providers.DotNet
 B:\VidlyApp\Vidly.AzureDeployedRepo\Vidly\obj\Release\Vidly.csproj.CopyComplete
 B:\VidlyApp\Vidly.AzureDeployedRepo\Vidly\obj\Release\Vidly.dll
 B:\VidlyApp\Vidly.AzureDeployedRepo\Vidly\obj\Release\Vidly.pdb
+B:\VidlyApp\Vidly.AzureDeployedRepo\Vidly\obj\Release\Vidly.csprojAssemblyReference.cache
+B:\VidlyApp\Vidly.AzureDeployedRepo\Vidly\obj\Release\Vidly.Migrations.IntialModel.resources
+B:\VidlyApp\Vidly.AzureDeployedRepo\Vidly\obj\Release\Vidly.csproj.GenerateResource.cache
