@@ -25,7 +25,7 @@ namespace Vidly.Controllers
         // GET: Professions
         public ActionResult Courses()
         {
-            return View();
+            return View("Courses");
         }
 
         public ActionResult Tutorials()

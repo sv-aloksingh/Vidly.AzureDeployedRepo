@@ -7,6 +7,7 @@ using Vidly.Models;
 
 namespace Vidly.Controllers
 {
+    [AllowAnonymous]
     public class MoviesController : Controller
     {
         ApplicationDbContext _context;
@@ -22,7 +23,6 @@ namespace Vidly.Controllers
         }
 
         // GET: Movies
-        [Authorize]
         public ActionResult Index()
         {
             return View();

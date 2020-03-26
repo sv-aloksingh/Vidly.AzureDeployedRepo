@@ -91,10 +91,10 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item active">
-                                @Html.ActionLink("Courses", "Courses", "Professions", null, new { @class = "nav-link" })
+                                @Html.ActionLink("Course", "Index", "Customers", null, new { @class = "nav-link" })
                             </li>
                             <li class="nav-item active">
-                                @Html.ActionLink("Tutorials", "Index", "Movies", null, new { @class = "nav-link" })
+                                @Html.ActionLink("Tutorials", "Index", "Customers", null, new { @class = "nav-link" })
                             </li>
                             <li class="nav-item active">
                                 @Html.ActionLink("YouTube", "Index", "Customers", null, new { @class = "nav-link" })
@@ -105,11 +105,16 @@
                             <li class="nav-item active">
                                 @Html.ActionLink("Contact me", "Index", "Movies", null, new { @class = "nav-link" })
                             </li>
+
                         </ul>
                     </div>
                 </div>
+
             </nav>
-            @RenderBody()
+            <div class="content">
+                @RenderBody()
+                @RenderSection("", false)
+            </div>
             @*<h2 class="mb-4">Sidebar #01</h2>*@
             <hr />
             <footer>
